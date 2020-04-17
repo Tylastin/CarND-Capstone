@@ -54,13 +54,13 @@ class Controller(object):
         
         if linear_vel == 0 and current_vel < 0.1:
             throttle = 0 
-            brake = 400 # N*m stopping torque
+            brake = 700 # N*m stopping torque
             
         elif throttle < 0.1 and vel_error < 0:
             throttle = 0
             decel = max(vel_error, self.decel_limit)
             brake = abs(decel) * self.vehicle_mass * self.wheel_radius # Torgue in N*m
-            
+        rospy.loginfo("Throttle: {}, Brake: {}, Steering: {}".format(throttle,brake,steering))
         return throttle, brake, steering
         
         
