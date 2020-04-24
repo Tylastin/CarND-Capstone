@@ -1,8 +1,8 @@
-![Header](./imgs/header_image.png)
+![Header](./imgs/header_img.png)
 
 ### Autonomous Driving Project
 ---
-This rospy based project contains implementations of the primary subsystems of a self-driving car: perception, planning, and control. The ROS based system is able to drive a car autonomously under controlled conditions. The system was able to  adhere to speed limit and traffic light regulations under test conditions. Because the system is built on the ROS framework, it's highly modular and can accomadate additional features such, as obstacle avoidance. A short demo video of the system driving a car in a Unity simulator can be found [here]("./imgs/capstone_demo.mov").
+This rospy based project contains implementations of the primary subsystems of a self-driving car: perception, planning, and control. The ROS based system is able to drive a car autonomously under controlled conditions. The system was able to  adhere to speed limit and traffic light regulations under test conditions. Because the system is built on the ROS framework, it's highly modular and can accomadate additional features such, as obstacle avoidance. A short demo video of the system driving a car in a Unity simulator can be found [here](./imgs/capstone_demo.mov).
 
 Author: Fabio Flores fflores321@gmail.com
 
@@ -22,7 +22,7 @@ Instead of spending hours training a better model for both the test track and th
 
 Green Light               |  Red Light
 :-------------------------:|:-------------------------:
-![Green Light](./imgs/green_light_image.png)  |  ![Red Light](./imgs/red_light_image.png )
+![Green Light](./imgs/green_light_img.png)  |  ![Red Light](./imgs/red_light_img.png )
 
 
 ### Installation and Setup
