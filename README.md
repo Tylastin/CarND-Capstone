@@ -81,3 +81,8 @@ cd CarND-Capstone/ros
 roslaunch launch/site.launch
 ```
 5. Confirm that traffic light detection works on real life images
+
+
+### References
+
+I originally trained my own SSD classifier, starting with a pretrained (COCO) model from the model zoo. I realized I severely undertrained the model when it was not able to make consistently good predictions. Instead of spending hours training a better model for both the test track and the simulator track, I chose to use the frozen inference graph files from https://github.com/alex-lechner/Traffic-Light-Classification. I give full credit for the effectiveness of the traffic light classifier in this project to Alex Lechner. 
