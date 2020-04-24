@@ -7,7 +7,7 @@ Name: Fabio Flores
 
 email: fflores321@gmail.com
 
-![alt text](imgs/architecture_image.png "System Architecture")
+![System Architecture](./imgs/architecture_image.png "System Architecture")
 
 Please use **one** of the two installation options, either native **or** docker installation.
 
