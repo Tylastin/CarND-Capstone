@@ -2,10 +2,12 @@
 This is a rospy based project incorporating the primary subsystems of a self driving car: perception, planning, and control. The ROS based systems is able to drive a car autonomously under controlled conditions. 
 
 Authors:
+
 Name: Fabio Flores
+
 email: fflores321@gmail.com
 
-![alt text](./imgs/architecture_image.png "System Architecture")
+![alt text](imgs/architecture_image.png "System Architecture")
 
 Please use **one** of the two installation options, either native **or** docker installation.
 
