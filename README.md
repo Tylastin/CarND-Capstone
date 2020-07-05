@@ -17,7 +17,7 @@ The system uses a pub-sub architecture in which each node subscribes to topics c
 ---
 To accomplish traffic light detection, I originally trained an SSD classifier, starting with a pretrained (COCO) model from the tensoflow detection model zoo (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). When I extracted the frozen inference graph and incorporating into the ROS project, classication accuracy was poor. I found that the model needed to be trained for many more training steps to be sufficiently accurate for the application. 
 
-Instead of spending hours training a better model for both the test track and the simulator track, I used the frozen inference graph files from Alex Lechner's [traffic light clasification respository](https://github.com/alex-lechner/Traffic-Light-Classification). The graphs in this repository were trained for many more steps and produced results that satisfied the requirements. 
+Instead of retraining the model, I used the frozen inference graph files from Alex Lechner's [traffic light clasification respository](https://github.com/alex-lechner/Traffic-Light-Classification). The graphs in this repository were trained for many more steps and produced results that satisfied the requirements. 
 
 
 Green Light               |  Red Light
